@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rage.clamberadmin.AddClimbDialogFragment">
+
+
+    <EditText
+        android:id="@+id/add_climb_gym_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/gym_rating"
+        android:padding="5dp"
+        />
+   <Spinner
+       android:id="@+id/add_climb_color_spinner"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="5dp"
+       >
+
+   </Spinner>
+
+    <Spinner
+        android:id="@+id/add_climb_type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+    </Spinner>
+
+</LinearLayout>

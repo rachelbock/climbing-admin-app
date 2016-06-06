@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.rage.clamberadmin.WallsFragment">
+
+    <ImageView
+        android:id="@+id/wall_page_wall_1_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:tag="1"
+        />
+
+    <ImageView
+        android:id="@+id/wall_page_wall_2_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:tag="2"
+        />
+
+    <ImageView
+        android:id="@+id/wall_page_wall_3_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:tag="3"
+        />
+
+    <ImageView
+        android:id="@+id/wall_page_wall_4_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:tag="4"
+        />
+</LinearLayout>

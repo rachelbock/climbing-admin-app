@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/climb_row_grade_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grade"
+        android:padding="5dp"
+        android:textSize="18sp"
+        />
+
+    <ImageView
+        android:id="@+id/climb_row_color_image_view"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:padding="5dp"
+        tools:background="@android:color/black"
+
+        />
+    <TextView
+        android:id="@+id/climb_row_type_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type"
+        android:padding="5dp"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remove"
+        android:padding="5dp"
+        android:textSize="18sp"
+        />
+    <CheckBox
+        android:id="@+id/climb_row_remove_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        />
+
+</LinearLayout>

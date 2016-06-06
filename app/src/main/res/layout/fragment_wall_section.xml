@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rage.clamberadmin.WallSectionFragment">
+
+
+    <FrameLayout
+        android:id="@+id/wall_section_fragment_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/walls_page_grid_recycler_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wall_section_fragment_frame_layout"
+        android:layout_centerHorizontal="true"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
